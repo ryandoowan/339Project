@@ -1,0 +1,15 @@
+body {
+    background-color: #427ef5;
+}
+
+.gall {
+    display: inline-flex;
+    flex-wrap: wrap;
+    align-content: center;
+    justify-content: center;
+}
+
+.gall > img {
+    border: solid 10px #50C7C7;
+    margin: 10px;
+}
