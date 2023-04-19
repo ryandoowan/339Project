@@ -1,0 +1,15 @@
+How do you indicate the current page WITHIN the links in the navigation?  (Make sure you are not using just color)
+    To indicate the current page, I used a dotted black border to indicate that that is the page the user is currently on. In addition, I change the color to dark magenta to show the difference in color.
+Is “Skip to Content” available on every page - It should be hidden on the page load and appear on the first tab.  
+    The skip to content is available on every page and is hidden on the page when loaded in at first. However, it appears on the first tab on every page.
+Which elements use grid and which pages are these elements on?  How did you use grid differently from the homework? Why did you use the number of columns/rows?  Did you use Inspect Element to check that removing display: grid changes the page?  (Include screenshot if desired.)
+    I used grid for all the pictures in the Main Page and Vacation page. I used grid differently than the homework as I used it for all my pictures to format. I chose to use 2 columns for the mobile view, because it's a longer view and not as wide as the other views. For the tablet view, I chose 3 columns, because the view is a bit wider than mobile but not as wide as the desktop view. For the desktop view, I used 4 columns for the desktop view as it is the biggest view.
+
+    INCLUDE SCREENSHOT
+
+Which elements use flex and which pages are these elements on?  How did you use flex differently from the homework? Which different supporting properties did you use, e.g flex-direction, flex-wrap, justify, align?  Did you use Inspect Element to check that removing display: flex changes the element?  (Include screenshot if desired.)
+    I used flex for the header on all the pages, but I also used flex for structuring all of the music images on the music page. I used flex similar to the homework for the header, but I used it differently to center the images for the music page. I used justify-content and align-items to center the images and the arrow on the music page. 
+
+    INCLUDE SCREENSHOT
+
+ 

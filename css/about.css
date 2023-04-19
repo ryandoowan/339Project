@@ -1,0 +1,123 @@
+body {
+    background-color: #25b3fa;
+}
+
+.active {
+    border: black dotted 3px;
+    border-radius: 5px;
+}
+
+.active a {
+    color: darkmagenta;
+}
+
+header{
+    background-color: #50C7C7;
+    margin-bottom: 40px;
+}
+
+nav .head_links {
+    font-size: 20px;
+}
+
+nav li {
+    margin: 15px;
+    padding: 5px;
+    text-align: center;
+    list-style-type: none;
+}
+
+.skip a{
+    font-size: 17px;
+    left: 0;
+    color: black;
+    padding: 10px;
+    -webkit-transition: top 0.5s ease-out;
+    transition: top 0.5s ease-out;
+    z-index: 1;
+    position: absolute;
+    top: -50px;
+}
+    
+.skip a:focus {
+  position: absolute;
+  top: 70px;
+}
+
+header {
+    justify-content: flex-start;
+}
+
+.head_links {
+    display: flex;
+    flex-direction: row;
+    text-align: center;
+    justify-content: left;
+    position: static;
+}
+
+h1 {
+    font-size: 60px;
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+h2 {
+    font-size: 40px;
+    color: black
+}
+
+h3 {
+    font-size: 25px;
+}
+
+p {
+    font-size: 20px;
+    text-align: center;
+    margin-bottom: 10px;
+}
+
+main div {
+    text-align: center;
+}
+
+main #mitis {
+    text-align: center;
+    margin-bottom: 15px;
+}
+
+main div #songImgSrc {
+    width: 30%;
+    margin: 20px;
+}
+
+main div #mitImgSrc {
+    width: 30%;
+    margin: 20px;
+}
+
+main div #sevenImgSrc {
+    width: 30%;
+    margin: 20px;
+}
+
+main #illenium {
+    background-color: orange;
+    padding: 15px;
+}
+
+main #sevenlion {
+    background-color: greenyellow;
+    padding: 15px;
+}
+
+main div div {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+main div img {
+    width: 10%;
+    height: 70%;
+}

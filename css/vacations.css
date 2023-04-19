@@ -1,6 +1,61 @@
 body {
-    background-color: #427ef5;
+    background-color: #699bff;
 }
+
+.active {
+    border: black dotted 3px;
+    border-radius: 5px;
+}
+
+.active a {
+    color: darkmagenta;
+}
+
+header{
+    background-color: #50C7C7;
+    margin-bottom: 40px;
+}
+
+nav .head_links {
+    font-size: 20px;
+}
+
+nav li {
+    margin: 15px;
+    padding: 5px;
+    text-align: center;
+    list-style-type: none;
+}
+
+.skip a{
+    font-size: 17px;
+    left: 0;
+    color: black;
+    padding: 10px;
+    -webkit-transition: top 0.5s ease-out;
+    transition: top 0.5s ease-out;
+    z-index: 1;
+    position: absolute;
+    top: -50px;
+}
+    
+.skip a:focus {
+  position: absolute;
+  top: 70px;
+}
+
+header {
+    justify-content: flex-start;
+}
+
+.head_links {
+    display: flex;
+    flex-direction: row;
+    text-align: center;
+    justify-content: left;
+    position: static;
+}
+
 
 .gallery {
     display: grid;
@@ -8,6 +63,23 @@ body {
     grid-gap: 15px;
     align-items: center;
     justify-content: center;  
+}
+
+.active {
+    border: black dotted 3px;
+}
+
+h1 {
+    font-size: 60px;
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+
+p {
+    font-size: 20px;
+    text-align: center;
+    margin: 10px;
 }
 
 .gallery > img {
@@ -19,7 +91,6 @@ body {
 .gallery > img:first-child {
     grid-column-start: 1;
     grid-column-end: 3;
-    border: solid black 5px;
 }
 
 @media screen and (min-width: 700px) {
@@ -28,17 +99,9 @@ body {
         grid-template-columns: repeat(3, 30%);
     }
 
-    .gallery > img {
-        width: 100%;
-        border: solid black 3px;
-        justify-self: center;
-    }
-
-
     .gallery > img:first-child {
         grid-column-start: 1;
         grid-column-end: 2;
-        border: solid black 3px;
     }
     
 }
@@ -49,21 +112,13 @@ body {
         grid-template-columns: repeat(4, 20%);
     }
 
-    .gallery > img {
-        width: 100%;
-        border: solid black 3px;
-        justify-self: center;
-    }
-
     .gallery > img:last-child {
         grid-column-start: 1;
         grid-column-end: 5;
-        border: solid black 5px;
     }
 
     .gallery > img:first-child {
         grid-column-start: 1;
         grid-column-end: 2;
-        border: solid black 3px;
     }
 }
