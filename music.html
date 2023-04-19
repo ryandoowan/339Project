@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" type="text/css" href="css/html5reset.css">
+    <link rel="stylesheet" type="text/css" href="css/about.css">
+    <title>Document</title>
+</head>
+<body>
+    <div class="skip"><a href="#main">Skip to Main Content</a></div>
+
+    <header>
+        <nav>
+            <ul class="head_links">
+                <li><a href = "main.html">Main Page</a></li>
+                <li class="active"><a href = "music.html">Music</a></li>
+                <li><a href = "vacations.html">Vacations</a></li>
+            </ul>
+          </nav>
+    </header>
+    <h1>EDM Music</h1>
+
+    <p>I'm a big fan of EDM music, so I decided to make a playlist of my favortie artists and songs from them.</p>
+
+    <main class="container" id = "main">
+        <div id="illenium">
+            <h2>Illenium</h2><br>
+
+            <h3 id="IlleniumTitle">Good Things Fall Apart</h3>
+            <div>
+                <img src="images/leftarrow.PNG" alt="left arrow" id="leftIll">
+                <img src="images/Illenium/Illenium_and_Jon_Bellion_-_Good_Things_Fall_Apart.png" alt="Illenium album images" id="songImgSrc">
+                <img src="images/rightarrow.PNG" alt="right arrow" id="rightIll"><br>
+            </div>
+
+            <audio controls id="songAudio">
+                <source src="audio/Illenium/ILLENIUM, Jon Bellion - Good Things Fall Apart (Lyric Video).mp3" id="songAudioSrc">
+            </audio>
+        </div>
+        <div id="sevenlion">
+            <h2>Seven Lions</h2><br>
+
+            <h3 id="7lionTitle">First Time</h3>
+            <div>
+                <img src="images/leftarrow.PNG" alt="left arrow" id="left7">
+                <img src="images/SevenLions/FirstTime.jpg" alt="Seven lions album images" id="sevenImgSrc">
+                <img src="images/rightarrow.PNG" alt="right arrow" id="right7"><br>
+            </div>
+            <audio controls id="7Audio">
+                <source src="audio/SevenLions/[LYRICS] Seven Lions, SLANDER & Dabin - First Time (feat. Dylan Matthew).mp3" id="7AudioSrc">
+            </audio>
+        </div>
+
+        <div id="mitis">
+            <h2>MitiS</h2><br>
+
+            <h3 id="MitisTitle">Wait</h3>
+            <div> 
+                <img src="images/leftarrow.PNG" alt="left arrow" id="leftMit">
+                <img src="images/MitiS/Wait.jpg" alt="MitiS album images" id="mitImgSrc">
+                <img src="images/rightarrow.PNG" alt="right arrow" id="rightMit"><br>
+            </div>
+
+            <audio controls id="mitAudio">
+                <source src="audio/Mitis/MitiS & Crystal Skies - Wait (Lyrics) feat. Monika Santucci.mp3" id="mitAudioSrc">
+            </audio>
+        </div>
+    </main>
+
+    <script src="js/music.js"></script>
+</body>
+</html>
