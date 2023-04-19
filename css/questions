@@ -12,4 +12,10 @@ Which elements use flex and which pages are these elements on?  How did you use 
 
     INCLUDE SCREENSHOT
 
- 
+ What did you do to make your pages particularly visually appealing?  How did you come up with your color scheme?  Tell us more about your font choices, image editing, etc.I am sure there are things that you did that we can't easily see.
+    I made my pages visually appealing by using bright colors to fit the mood. I mainly used blue colors for the vacation page, because the pictures of mediterannean were mainly blue and had skies of blue. In the music page, I used different colors for different artists as I used orange for illenium, because his theme is often based on a burning phoenix. I used green for seven lions, because all his album images give a green vibe and the same for MitiS' album images of blue. I used different font sizes to signify importance and difference between artist names and song names. In addition, I made it so when you press the arrows, the image changes to the next song. 
+
+Tell us about your Responsive Design.  What is your tablet breakpoint and why did you pick that particular value for your first media query?  What is changed in the layout?  What is changed in the styling? How did these changes improve the page?  Were you careful to not duplicate unnecessary code?  
+    For the tablet breakpoint, I chose 700 because it is too big for mobile but too small for desktop view. The layout changes to 3 columns for tablet view and the sizes of images change to match the layout. The images have different styling, which fits the page  
+
+Tell us about your Responsive Design.  What is your desktop breakpoint and why did you pick that particular value for your first media query?  What is changed in the layout?  What is changed in the styling? How did these changes improve the page?  Were you careful to not duplicate unnecessary code?  
