@@ -174,22 +174,22 @@ function goRightMit() {
     if(mitis % numSongs == 1) {
         image.src = "images/MitiS/frameworks.jpg"
         title.textContent = "Frameworks"
-        source.src = "audio/mitis/MiTiS - Frameworks.mp3"
+        source.src = "audio/Mitis/MiTiS - Frameworks.mp3"
     }
     else if (mitis % numSongs == 2) {
-        image.src = "images/mitis/bymysid.jpg"
+        image.src = "images/MitiS/bymysid.jpg"
         title.textContent = "By My Side"
-        source.src = "audio/mitis/MitiS - By My Side (feat. Tedy).mp3"  
+        source.src = "audio/Mitis/MitiS - By My Side (feat. Tedy).mp3"  
     }
     else if (mitis % numSongs == 3) {
-        image.src = "images/mitis/whenIsay.jpg"
+        image.src = "images/MitiS/whenIsay.jpg"
         title.textContent = "When I Say You're Mine"
-        source.src = "audio/mitis/MitiS - When I Say You're Mine (Lryics) ft. Luma & Notelle.mp3"
+        source.src = "audio/Mitis/MitiS - When I Say You're Mine (Lryics) ft. Luma & Notelle.mp3"
     }
     else {
-        image.src = "images/mitis/Wait.jpg"
+        image.src = "images/MitiS/Wait.jpg"
         title.textContent = "Wait"
-        source.src = "audio/mitis/MitiS & Crystal Skies - Wait (Lyrics) feat. Monika Santucci.mp3"
+        source.src = "audio/Mitis/MitiS & Crystal Skies - Wait (Lyrics) feat. Monika Santucci.mp3"
     }
 
     audio.load();
@@ -209,7 +209,7 @@ function goLeft7() {
     }   
 
     if(seven % numSongs == 1) {
-        image.src = "images/SevenLions/rushOverme.jpg"
+        image.src = "images/SevenLions/rushOverMe.jpg"
         title.textContent = "Rush Over Me"
         source.src = "audio/SevenLions/Seven Lions x Illenium x Said The Sky - Rush Over Me Feat HALIENE (FULL LYRICS).mp3"
     }
@@ -243,7 +243,7 @@ function goRight7() {
     seven += 1
 
     if(seven % numSongs == 1) {
-        image.src = "images/SevenLions/rushOverme.jpg"
+        image.src = "images/SevenLions/rushOverMe.jpg"
         title.textContent = "Rush Over Me"
         source.src = "audio/SevenLions/Seven Lions x Illenium x Said The Sky - Rush Over Me Feat HALIENE (FULL LYRICS).mp3"
     }
