@@ -140,22 +140,22 @@ function goLeftMit() {
     if(mitis % numSongs == 1) {
         image.src = "images/MitiS/frameworks.jpg"
         title.textContent = "Frameworks"
-        source.src = "audio/mitis/MiTiS - Frameworks.mp3"
+        source.src = "audio/Mitis/MiTiS - Frameworks.mp3"
     }
     else if (mitis % numSongs == 2) {
-        image.src = "images/mitis/bymysid.jpg"
+        image.src = "images/MitiS/bymysid.jpg"
         title.textContent = "By My Side"
-        source.src = "audio/mitis/MitiS - By My Side (feat. Tedy).mp3"  
+        source.src = "audio/Mitis/MitiS - By My Side (feat. Tedy).mp3"  
     }
     else if (mitis % numSongs == 3) {
-        image.src = "images/mitis/whenIsay.jpg"
+        image.src = "images/MitiS/whenIsay.jpg"
         title.textContent = "When I Say You're Mine"
-        source.src = "audio/mitis/MitiS - When I Say You're Mine (Lryics) ft. Luma & Notelle.mp3"
+        source.src = "audio/Mitis/MitiS - When I Say You're Mine (Lryics) ft. Luma & Notelle.mp3"
     }
     else {
-        image.src = "images/mitis/Wait.jpg"
+        image.src = "images/MitiS/Wait.jpg"
         title.textContent = "Wait"
-        source.src = "audio/mitis/MitiS & Crystal Skies - Wait (Lyrics) feat. Monika Santucci.mp3"
+        source.src = "audio/Mitis/MitiS & Crystal Skies - Wait (Lyrics) feat. Monika Santucci.mp3"
     }
 
     audio.load();
