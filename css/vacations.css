@@ -16,11 +16,11 @@ header{
     margin-bottom: 40px;
 }
 
-nav .head_links {
+div .head_links {
     font-size: 20px;
 }
 
-nav li {
+div li {
     margin: 15px;
     padding: 5px;
     text-align: center;
